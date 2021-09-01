@@ -1,4 +1,4 @@
-package proj1;
+
 class Cat
 {
 	String type;
