@@ -4,7 +4,7 @@ import java.util.*;
 class Complex
 {
 	float a,b;
-	Complex();
+	Complex(){};
 	Complex(float a,float b)
 	{
 		this.a = a;
