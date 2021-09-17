@@ -4,6 +4,7 @@ import java.util.*;
 class Complex
 {
 	float a,b;
+	Complex();
 	Complex(float a,float b)
 	{
 		this.a = a;
@@ -51,15 +52,15 @@ public class complex_nos {
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
-		int a,b;
+		float a,b;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the real and imaginery parts of the complex no 1 :-");
-		a = sc.nextInt();
-		b = sc.nextInt();
+		a = sc.nextFloat();
+		b = sc.nextFloat();
 		Complex c1 = new Complex(a,b);
 		System.out.println("Enter the real and imaginery parts of the complex no 2 :-");
-		a = sc.nextInt();
-		b = sc.nextInt();
+		a = sc.nextFloat();
+		b = sc.nextFloat();
 		Complex c2 = new Complex(a,b);
 		System.out.println("Complex no 1 is :-");
 		c1.display();
